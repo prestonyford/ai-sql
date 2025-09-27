@@ -35,12 +35,6 @@ CREATE TABLE Airport (
 	dst TEXT CHECK(dst IN ('E','A','S','O','Z','N','U'))
 );
 
--- CREATE TABLE Country (
--- 	country_id INTEGER PRIMARY KEY,
--- 	name TEXT NOT NULL,
--- 	iso_code TEXT NOT NULL
--- );
-
 CREATE TABLE Aircraft (
 	aircraft_id INTEGER PRIMARY KEY,
 	name TEXT NOT NULL,
@@ -48,6 +42,7 @@ CREATE TABLE Aircraft (
 	icao_code TEXT
 );
 
+-- Aircraft commonly used by routes
 CREATE TABLE RouteAircraft (
 	route_id INTEGER NOT NULL,
 	aircraft_id INTEGER NOT NULL,
