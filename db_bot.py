@@ -8,7 +8,7 @@ from setup import setup
 print("Running db_bot.py!")
 fdir = os.path.dirname(__file__)
 
-# setup()
+setup()
 
 def getPath(fname):
 	return os.path.join(fdir, fname)
