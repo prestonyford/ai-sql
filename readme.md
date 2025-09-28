@@ -30,6 +30,7 @@ Query Raw Response:
 ```
  
 Natural Language Response:
+
 The top 5 busiest airports, based on the total number of incoming and outgoing routes, are as follows:
 1. Hartsfield-Jackson Atlanta International Airport: 915 outgoing routes, 911 incoming routes
 2. Chicago O'Hare International Airport: 558 outgoing routes, 550 incoming routes
