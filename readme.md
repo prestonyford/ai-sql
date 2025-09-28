@@ -1,6 +1,6 @@
 A python application that uses natural language input to generate SQLite query, queries a database, and responds with a natural language answer.
 
-The database for this project includes information on airports, airlines, routes, and planes.
+The database for this project includes information on airports, airlines, routes, and planes. Data is obtained from https://openflights.org/data.
 
 ## Example
 Question:
